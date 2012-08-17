@@ -1,7 +1,6 @@
-name: env
+name: node-env
 
 framework:
-  type: node
-
-mem: 64M
-
+  type: buildpack
+env:
+  BUILDPACK_URL: 'https://github.com/ttilley/stackato-buildpack-nodejs.git'

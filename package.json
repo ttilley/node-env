@@ -1,0 +1,10 @@
+{
+  "name": "node-env",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  },
+  "description": "A simple demo that prints the server's environment variables",
+  "main": "app.js"
+}
